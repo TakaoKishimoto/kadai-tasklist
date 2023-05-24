@@ -39,7 +39,7 @@ public class CreateServlet extends HttpServlet {
             EntityManager em = DBUtil.createEntityManager();
             em.getTransaction().begin();
 
-            Task t= new Task();
+            Task t = new Task();
 
             String title = request.getParameter("title");
             t.setTitle(title);

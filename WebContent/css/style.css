@@ -87,3 +87,8 @@ button {
     color: #155724;
     background-color: #d4edda;
 }
+
+#pagination {
+    text-align: center;
+    margin-top: 2rem;
+}
